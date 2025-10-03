@@ -1,0 +1,83 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fuente general */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background: #f5f7fa;
+  color: #333;
+}
+
+/* Encabezado */
+header {
+  background: #1f2937;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+  border-bottom: 5px solid #3b82f6;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* Contenido principal */
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+section {
+  background: #fff;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+  margin-bottom: 1rem;
+  color: #2563eb;
+  font-size: 1.8rem;
+  border-left: 5px solid #3b82f6;
+  padding-left: 0.5rem;
+}
+
+ul {
+  list-style: square inside;
+  padding-left: 1rem;
+}
+
+li {
+  margin: 0.5rem 0;
+}
+
+code {
+  background: #e2e8f0;
+  padding: 2px 6px;
+  border-radius: 6px;
+  font-family: "Fira Code", monospace;
+  color: #1e293b;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #1f2937;
+  color: #f9fafb;
+  margin-top: 2rem;
+  border-top: 5px solid #3b82f6;
+}
